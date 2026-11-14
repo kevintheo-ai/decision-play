@@ -1,0 +1,132 @@
+{
+ "title": "Team tool spring round",
+ "tracks": [
+  {
+   "nr": 1,
+   "title": "Intro",
+   "file": "01 Intro.mp3",
+   "parts": [
+    {
+     "voice": "a",
+     "text": "Hi. Five open items for the next round of the team tool. You say yes, no or later for each, then the agent builds. There are five items. Each item is a short piece. Use the next button to skip ahead. You don't need to remember anything or say anything. Decide once you have parked."
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "id": "pin",
+   "version": "692e559956",
+   "title": "Item 1: Pinning",
+   "file": "02 Item 1 Pinning.mp3",
+   "parts": [
+    {
+     "voice": "a",
+     "text": "Item one: Pinning. You right-click a card and pick Pin. It stays in its own block at the top until you unpin it. The card you open most would always be in the same place. The estimated cost is one build night."
+    },
+    {
+     "voice": "b",
+     "text": "Against it: If something sticks at the top, you look less at the questions below it."
+    },
+    {
+     "voice": "a",
+     "text": "My proposal: yes. Cheap and it hits the card you open most. That was item one, Pinning."
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "id": "search",
+   "version": "b9705dd614",
+   "title": "Item 2: Search",
+   "file": "03 Item 2 Search.mp3",
+   "parts": [
+    {
+     "voice": "a",
+     "text": "Item two: Search. A search field above the cards filters them as you type, also in version two names. The estimated cost is two build nights."
+    },
+    {
+     "voice": "b",
+     "text": "Against it: Most days there are fewer than ten cards."
+    },
+    {
+     "voice": "a",
+     "text": "My proposal: yes. With thirty-one cards and forty-one percent of them idle, scrolling takes too long. That was item two, Search."
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "id": "archive",
+   "version": "bce107a767",
+   "title": "Item 3: Auto archive",
+   "file": "04 Item 3 Auto archive.mp3",
+   "parts": [
+    {
+     "voice": "a",
+     "text": "Item three: Auto archive. Cards that are done for a week move to the archive on their own. The estimated cost is three build nights."
+    },
+    {
+     "voice": "b",
+     "text": "For it: The board would stay short without any work."
+    },
+    {
+     "voice": "a",
+     "text": "My proposal: no. You like to see what is done. That was item three, Auto archive."
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "id": "phone",
+   "version": "476e82f4ca",
+   "title": "Item 4: Phone app",
+   "file": "05 Item 4 Phone app.mp3",
+   "parts": [
+    {
+     "voice": "a",
+     "text": "Item four: Phone app. The board as its own phone app with notifications. The estimated cost is eight build nights."
+    },
+    {
+     "voice": "b",
+     "text": "Against my proposal: You are away from the desk a lot."
+    },
+    {
+     "voice": "a",
+     "text": "My proposal: later. Too big for this round. That was item four, Phone app."
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "id": "storage",
+   "version": "d88558d4b2",
+   "title": "Item 5: Storage",
+   "file": "06 Item 5 Storage.mp3",
+   "parts": [
+    {
+     "voice": "a",
+     "text": "Item five: Storage. The cards live either on this computer or in a cloud folder. The choices are: On this computer and Cloud folder."
+    },
+    {
+     "voice": "b",
+     "text": "Against my proposal: A cloud folder can sync late."
+    },
+    {
+     "voice": "a",
+     "text": "My proposal: Cloud folder. Then the phone can read them later. That was item five, Storage."
+    }
+   ]
+  },
+  {
+   "nr": 7,
+   "title": "Closing",
+   "file": "07 Closing.mp3",
+   "parts": [
+    {
+     "voice": "a",
+     "text": "That were all five items: Pinning, Search, Auto archive, Phone app and Storage. Once you have parked, just tell me the numbers, for example: one yes, two later. You don't have to do everything at once. And tell me if this was pleasant to listen to."
+    }
+   ]
+  }
+ ]
+}

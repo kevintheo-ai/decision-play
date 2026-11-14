@@ -1,0 +1,19 @@
+{
+  "skill_name": "decision-play",
+  "evals": [
+    {
+      "id": 1,
+      "name": "paper-newsletter",
+      "prompt": "You are the session \"Newsletter\" of a small online shop (project folder ./newsletter). Four items are open that the owner has to decide. The numbers were measured in this session or read from invoices:\n1. Send every 2 weeks instead of monthly. Open rate monthly 41 %, in the 2 test sends at the 2-week rhythm 38 % and 40 %. Proposal: yes.\n2. Recipe section: every issue gets a recipe that uses one of our products. Effort per issue about 2 hours. Proposal: yes.\n3. Discount code in every issue (10 %). Against: people start waiting for discounts. Proposal: no.\n4. Move to a hosted mail service: costs 39 USD a month at 5,000 contacts, the own server goes away. Proposal: later.\nThe owner writes: \"as a newspaper\".",
+      "expected_output": "content.json with 4 items and block paper (2 or 3 editions), build.py --check OK, index.html starting with paper, short message to the user that the page is open and how to paste the answers back.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "budget-app-ideas",
+      "prompt": "You are the session \"App ideas\". The user collected five ideas for their task app, you estimated the effort (1 build night = about three hours of work with an agent):\n- Keyboard shortcut for the inbox: 1 build night, proposal yes\n- Light and dark theme: 2 build nights, proposal later\n- Group tasks by project: 3 build nights, proposal yes\n- Weekly report of how long tasks waited: 2 build nights, proposal yes\n- Own tablet app: 8 build nights, proposal no\nPlus one choice: should search look only at titles or also at notes? Proposal: also notes.\nThe user says: \"give me that as a budget game, I have about 4 evenings this week\".",
+      "expected_output": "content.json with 6 items (5 with cost, 1 choice with options), unit build night, block budget with start 4, build.py --check OK, index.html starting with budget, message to the user.",
+      "files": []
+    }
+  ]
+}

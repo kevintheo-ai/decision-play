@@ -1,0 +1,55 @@
+{
+ "_note": "Small test fixture for build.py and the browser smoke test. Not an example to copy, see ../../example/.",
+ "title": "Team tool spring round",
+ "session": "Team tool planning",
+ "about": "Five open items for the next round of the team tool. You say yes, no or later for each, then the agent builds.",
+ "date": "March 1, 2027",
+ "unit": {"one": "build night", "many": "build nights", "explain": "A build night is about three hours of work with an agent."},
+ "committed": [
+  {"name": "Bug fixes", "text": "Small fixes from last week.", "cost": 1}
+ ],
+ "items": [
+  {"id": "pin", "short": "Pinning", "title": "Keep important cards at the top",
+   "about": "You right-click a card and pick Pin. It stays in its own block at the top until you unpin it.",
+   "familiar": "Your most used card slides down as soon as others wait longer.",
+   "why": "The card you open most would always be in the same place.",
+   "risk": "Pin too much and the top is a long list again.",
+   "conflict": "In February you said the longest waiting card goes first.",
+   "cost": 1, "proposal": "yes", "proposalWhy": "Cheap and it hits the card you open most.",
+   "counter": "If something sticks at the top, you look less at the questions below it.",
+   "captions": ["A tidy board in the morning.", "The key card slides to the bottom.", "Pinned, it stays on top.", "The pin menu as it looks today."]},
+  {"id": "search", "short": "Search", "title": "Find a card by name",
+   "about": "A search field above the cards filters them as you type, also in v2 names.",
+   "cost": 2, "proposal": "yes", "proposalWhy": "With 31 cards and 41 % of them idle, scrolling takes too long.",
+   "counter": "Most days there are fewer than 10 cards.",
+   "captions": ["Many cards on the board.", "Scrolling and scrolling.", "Two letters and it is there.", "A draft of the search field."]},
+  {"id": "archive", "short": "Auto archive", "title": "Archive finished cards by themselves",
+   "about": "Cards that are done for a week move to the archive on their own.",
+   "cost": 3, "proposal": "no", "proposalWhy": "You like to see what is done.",
+   "counter": "The board would stay short without any work."},
+  {"id": "phone", "short": "Phone app", "title": "A separate app for the phone",
+   "about": "The board as its own phone app with notifications.",
+   "cost": 8, "proposal": "later", "proposalWhy": "Too big for this round.",
+   "counter": "You are away from the desk a lot."},
+  {"id": "storage", "short": "Storage", "title": "Where the cards are stored",
+   "about": "The cards live either on this computer or in a cloud folder.",
+   "options": [{"id": "local", "text": "On this computer"}, {"id": "cloud", "text": "Cloud folder"}],
+   "proposal": "cloud", "proposalWhy": "Then the phone can read them later.",
+   "counter": "A cloud folder can sync late."}
+ ],
+ "paper": {
+  "prefix": "The", "name": "Board", "place": "Springfield", "date": "April 1, 2027",
+  "intro": "Two made-up newspapers from a month from now, each with a different pick.",
+  "editions": [
+   {"id": "small", "name": "Small", "yes": ["pin"], "headline": "One pin, calm board", "lede": "Only pinning was built.",
+    "story": "The day starts with the key card on top. Nothing else changed."},
+   {"id": "big", "name": "Bigger", "yes": ["pin", "search"], "choices": {"storage": "cloud"}, "headline": "Pin and search",
+    "lede": "Pinning and search were built.", "story": "The key card is on top and every other card is two letters away.",
+    "image": "real/pin.png", "caption": "The pinned block."}
+  ],
+  "nothing": {"name": "Nothing New", "headline": "All as before", "lede": "Nothing new was built.", "story": "The board is the same as today."}
+ },
+ "budget": {"min": 1, "max": 6, "start": 3, "intro": "Spring round."},
+ "panels": {"folder": "panels", "legend": "Every card is a sheet of paper on the wall."},
+ "car": {"folder": "car", "voice": "Test voice", "pronounce": {"v2": "version two"}}
+}

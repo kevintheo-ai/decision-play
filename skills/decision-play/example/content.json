@@ -1,0 +1,205 @@
+{
+ "_note": "Invented example. The café, the people and all numbers are made up to show every field and every way.",
+ "title": "Café spring plan",
+ "session": "Café · spring planning",
+ "about": "Mara and Teo run a small café with a bakery. Six things are open for the spring. You say yes, no or later to each, and pick one oven. Then the agent plans the work you chose.",
+ "date": "March 2, 2027",
+ "unit": {
+  "one": "day",
+  "many": "days",
+  "explain": "A day is one full working day for one of you, on top of normal opening hours. Example: setting up the till in January took about two days."
+ },
+ "committed": [
+  {
+   "name": "New opening hours sign",
+   "text": "Already decided in February. Small, half a day of work.",
+   "cost": 1
+  },
+  {
+   "name": "Supplier switch for flour",
+   "text": "Already decided. No work for you, the new mill delivers from April."
+  }
+ ],
+ "items": [
+  {
+   "id": "preorder",
+   "short": "Pre-orders",
+   "title": "Order bread online, pick it up at seven",
+   "about": "Customers order a loaf on a simple web page until 8 pm. The next morning it waits for them at the counter with their name on it.",
+   "familiar": "Regulars call before you open and ask you to keep a loaf. You write it on a sticky note and hope it does not fall off.",
+   "why": "Fewer phone calls in the busiest hour, and fewer people who leave without bread.",
+   "now": "Phone calls and sticky notes. When the sourdough is sold out, late customers go home with nothing.",
+   "after": "A short list on the tablet each evening. You bake those loaves on top of the normal batch.",
+   "evidence": "In February 41 people asked by phone to reserve bread. On 9 mornings the sourdough was gone before ten.",
+   "cost": 3,
+   "costNote": "One day for the page, one for the tablet list, one for trying it with regulars. Estimated, could be four if payment is needed.",
+   "risk": "People order and do not come. The loaf is baked and nobody pays for it.",
+   "regret": "In three months you bake twenty extra loaves every evening and stay longer than you want.",
+   "conflict": "In autumn you said no online shop. This is smaller: bread only, pick up only.",
+   "ifYes": "The agent builds the order page this week and you test it with five regulars.",
+   "ifNo": "Sticky notes stay. Nothing to build.",
+   "proposal": "yes",
+   "proposalWhy": "It fixes the busiest hour of the day, and three days fit into the spring.",
+   "counter": "No-shows cost real bread, and without payment up front you cannot stop them.",
+   "captions": [
+    "Seven in the morning. Mara stands at the counter with a full rack of fresh loaves.",
+    "The phone rings again and again. Sticky notes pile up and one falls under the counter.",
+    "With pre-orders, a neat row of bagged loaves waits with names on them. Mara smiles at the first customer.",
+    "The real order page as a draft: one loaf, one time, one name."
+   ],
+   "realImage": "real/preorder4.png"
+  },
+  {
+   "id": "terrace",
+   "short": "Terrace",
+   "title": "Six tables outside from April",
+   "about": "The pavement in front of the café gets six small tables and a rail for plants. You need a permit from the town and someone to carry tables in and out.",
+   "familiar": "On sunny days people take their coffee and stand on the pavement, because the twelve seats inside are full.",
+   "why": "More seats exactly on the days when the café is busiest.",
+   "now": "Twelve seats inside. On sunny weekends people wait or leave.",
+   "after": "Eighteen seats outside and inside. Tables go out at eight and come in at six.",
+   "evidence": "On the last four sunny Saturdays you counted between 14 and 22 people who left without a seat.",
+   "cost": 4,
+   "costNote": "Permit form, buying tables, plant rail, one test weekend. The permit can take weeks; that time is not counted here.",
+   "risk": "Rainy spring. You pay for tables that stay inside.",
+   "regret": "Carrying six tables twice a day becomes the job nobody wants.",
+   "ifYes": "The agent fills in the permit form with you and lists three table options.",
+   "ifNo": "The pavement stays empty. Maybe again next year.",
+   "proposal": "later",
+   "proposalWhy": "It is the biggest item and the permit decides the date anyway. Ask the town first, build in May.",
+   "counter": "If you wait, the best weeks of spring are gone before the tables are there.",
+   "captions": [
+    "A sunny Saturday. The café is full and the pavement outside is empty.",
+    "People with cups stand on the pavement. A couple looks inside, sees no seat and walks away.",
+    "Six small tables stand outside with plants on a rail. Teo serves coffee in the sun.",
+    "The real floor plan: six tables and the space the town asks to keep free."
+   ],
+   "realImage": "real/terrace4.png"
+  },
+  {
+   "id": "board",
+   "short": "Menu board",
+   "title": "One big chalk board with allergens",
+   "about": "One large chalk board behind the counter replaces the three small signs. Every cake gets a small letter for the allergens in it.",
+   "familiar": "Every third customer asks if a cake has nuts in it, and you go to the back to check the recipe.",
+   "why": "Fewer questions at the counter and fewer trips to the back.",
+   "now": "Three small signs and a folder in the back with all recipes.",
+   "after": "One board, readable from the door. The letters explain the allergens at a glance.",
+   "evidence": "In one week Teo counted 63 allergen questions at the counter.",
+   "cost": 1,
+   "costNote": "Half a day for the list, half a day to paint. Low risk.",
+   "risk": "The board is out of date when the cakes change and nobody updates it.",
+   "ifYes": "The agent writes the allergen list from your recipes and a layout for the board.",
+   "ifNo": "The folder stays the answer.",
+   "proposal": "yes",
+   "proposalWhy": "One day, and it saves time every single day.",
+   "counter": "A chalk board is easy to smudge. A wrong letter on the board is worse than asking.",
+   "captions": [
+    "Teo stands behind the counter with three small, crowded signs above him.",
+    "A customer points at a cake and asks a question. Teo walks to the back to look in a thick folder.",
+    "One big chalk board hangs behind the counter. The customer reads it and nods.",
+    "The real board layout as a draft, with the allergen letters."
+   ],
+   "realImage": "real/board4.png"
+  },
+  {
+   "id": "stamps",
+   "short": "Stamp card",
+   "title": "The stamp card moves into the phone",
+   "about": "Instead of the paper card with ten stamps, customers show a code on their phone. The tenth coffee is still free.",
+   "why": "You would see how many people really come back.",
+   "now": "Paper cards. Some customers have three, half full.",
+   "after": "A code at the till. The numbers show up once a week.",
+   "cost": 2,
+   "costNote": "Most till systems offer this as an add-on. Two days to set up and explain it to customers.",
+   "risk": "Older regulars do not want an app and feel left out.",
+   "ifYes": "The agent compares two till add-ons and their monthly price.",
+   "ifNo": "Paper cards stay, and they work.",
+   "proposal": "no",
+   "proposalWhy": "The paper card works and your regulars like it. The numbers are nice to have, not needed.",
+   "counter": "Without numbers you never learn which regulars stopped coming."
+  },
+  {
+   "id": "class",
+   "short": "Bread class",
+   "title": "A bread class on the first Saturday of the month",
+   "about": "Eight people learn to bake a sourdough loaf with Mara on a Saturday afternoon. They take their loaf home.",
+   "why": "Extra income on a quiet afternoon, and people who learn here buy here.",
+   "cost": 2,
+   "costNote": "One day to plan the class and the sign-up, one day for the first class itself.",
+   "risk": "Nobody signs up for the first one, and Mara gave up her Saturday for nothing.",
+   "ifYes": "The agent writes the sign-up page and a shopping list for eight people.",
+   "ifNo": "Saturday afternoons stay quiet.",
+   "proposal": "later",
+   "proposalWhy": "A nice idea, but spring is full. Autumn fits better, when the terrace is closed.",
+   "counter": "Spring is when people want to learn something new. In autumn fewer sign up."
+  },
+  {
+   "id": "oven",
+   "short": "Oven",
+   "title": "Which oven replaces the old one",
+   "about": "The old oven was repaired twice this winter. You can buy a deck oven, a combi oven, or repair it one more time.",
+   "why": "A broken oven on a Saturday costs more than any of the other items.",
+   "options": [
+    {"id": "deck", "text": "Deck oven, best for bread"},
+    {"id": "combi", "text": "Combi oven, also steams and roasts"},
+    {"id": "repair", "text": "Repair once more"}
+   ],
+   "evidence": "Two repairs this winter, together about the price of a quarter of a new oven.",
+   "risk": "A new oven means a delivery day with the café closed.",
+   "proposal": "deck",
+   "proposalWhy": "Bread is most of what you sell, and a deck oven bakes it best.",
+   "counter": "The combi oven would let you add lunch later. The deck oven closes that door."
+  }
+ ],
+ "paper": {
+  "prefix": "The",
+  "name": "Linden Ledger",
+  "place": "Millbrook",
+  "date": "June 2, 2027",
+  "intro": "The café has six open items. Instead of deciding them one by one, read two newspapers that do not exist. Each tells a morning in June with a different café. Pick the future you want to read about.",
+  "editions": [
+   {
+    "id": "small",
+    "name": "Small steps",
+    "yes": ["board", "preorder"],
+    "choices": {"oven": "repair"},
+    "headline": "Fewer questions, fewer phone calls",
+    "lede": "A chalk board and a short order list. Everything else in the café stayed as it was.",
+    "story": "At seven Mara unlocked the door and the first loaves were already bagged, each with a name on it. Nobody had called. Teo wrote the cakes of the day on the big board, and the small letters next to them answered the question about nuts before anyone asked it. The old oven was repaired one more time and held up. On Saturday the café was full again, and people stood outside with their cups, but that was a problem for another spring.",
+    "image": "real/board4.png",
+    "caption": "The board in this edition. A draft, not a photo."
+   },
+   {
+    "id": "busy",
+    "name": "Busy summer",
+    "yes": ["board", "preorder", "terrace", "class"],
+    "choices": {"oven": "deck"},
+    "headline": "Café on Linden Street moves outside",
+    "lede": "Six tables on the pavement, a new deck oven and a bread class that filled up in two days.",
+    "story": "By eight the tables were outside and the first guests sat in the sun. The new deck oven had baked forty loaves before the door opened, twelve of them already ordered online the evening before. Teo carried the tables in at six, which he called the worst part of his day. On Saturday afternoon eight people stood around the big table in the back and shaped their first sourdough with Mara. Two of them came back on Monday to buy bread.",
+    "image": "real/terrace4.png",
+    "caption": "The terrace plan in this edition. A draft, not a photo."
+   }
+  ],
+  "nothing": {
+   "name": "Nothing new",
+   "headline": "Café on Linden Street stays the same",
+   "lede": "No new board, no orders, no tables outside.",
+   "story": "The phone rang at seven, as it always did, and Mara wrote a name on a sticky note. A customer asked about nuts and Teo went to the back to check the folder. On Saturday people stood outside with their cups. Nothing was wrong, and nothing was new."
+  }
+ },
+ "budget": {
+  "min": 2,
+  "max": 10,
+  "start": 5,
+  "intro": "This is the spring for the café. You have about five spare days between now and May."
+ },
+ "panels": {
+  "folder": "panels",
+  "legend": "Mara bakes, Teo serves. The rack of loaves is the morning batch, the sticky notes are phone orders."
+ },
+ "car": {
+  "note": "Listen on the way to the market. Decide once you have parked."
+ }
+}
